@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Szablon Strony</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/d42db0b325.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <!-- top bar -->
+        <div class="header__topBar">
+          <div class="topBar__info">
+            <div class="topBar_number">
+              <span><i class="fas fa-phone-volume"></i></span>293 939 098
+            </div>
+            <div class="topBar_email">
+              <span><i class="far fa-envelope"></i></span>kontakt@aurorbox.pl
+            </div>
+          </div>
+          <div class="topBar__buttons">
+            <button class="topBar__button topBar__button--left ">
+              <span><i class="fas fa-lock"></i></span>Zaloguj się
+            </button>
+            <button class="topBar__button topBar__button--right">
+              <span><i class="fas fa-user-plus"></i></span> Załóż konto
+            </button>
+          </div>
+        </div>
+        <!-- middle row -->
+        <div class="header__middleRow">
+          <div class="middleRow__logo "><img src="img/logo.png" alt="" /></div>
+          <form class="middleRow__searchForm in-down">
+            <input
+              placeholder="Co chcesz kupic?"
+              class="middleRow__searchBox"
+            />
+            <a href="#"><i class="fas fa-search"></i> </a>
+          </form>
+          <div class="middleRow__basket in-left">
+            <i class="fas fa-shopping-bag searchBox__basket"></i
+            ><span>Twój koszyk</span>
+          </div>
+        </div>
+        <!-- bottom row nav menu -->
+        <div class="header__nav">
+          <ul class="nav__list in-down">
+            <li><a href="#">kategorie</a></li>
+            <li><a href="#">nowości</a></li>
+            <li><a href="#">promocje</a></li>
+            <li><a href="#">wyprzedaże</a></li>
+            <li><a href="#">kolekcje sezony</a></li>
+            <li><a href="#">nasza oferta</a></li>
+            <li><a href="#">trendy 2018</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">kontakt</a></li>
+          </ul>
+          <div class="header__hamburger in-down">
+            <input type="checkbox" id="open-menu" />
+            <label class="open-menu" for="open-menu">
+              <div class="bar top"></div>
+              <div class="bar center"></div>
+              <div class="bar bottom"></div>
+            </label>
+            <ul class="hamburger__list in-left">
+              <li><a href="#">kategorie</a></li>
+              <li><a href="#">nowości</a></li>
+              <li><a href="#">promocje</a></li>
+              <li><a href="#">wyprzedaże</a></li>
+              <li><a href="#">kolekcje sezony</a></li>
+              <li><a href="#">nasza oferta</a></li>
+              <li><a href="#">trendy 2018</a></li>
+              <li><a href="#">blog</a></li>
+              <li><a href="#">kontakt</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>
+</html>
